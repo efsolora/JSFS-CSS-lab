@@ -1,0 +1,18 @@
+.colores{
+   /* width: 600px;
+    height: 600px;*/
+    background-image: linear-gradient(to top, #1d1b24,   #c6c8cd   );
+}
+.medidas{
+    width: 350px;
+    height: 500px;
+  
+}
+#right{
+    width: 350px;
+}
+.division{
+    height: 10px;
+    width: 350;
+    background-color: #1d1b24;
+}
