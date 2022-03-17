@@ -16,3 +16,42 @@
     width: 350;
     background-color: #1d1b24;
 }
+
+.socialbar{
+    position: fixed;
+    left: 0;
+    top:35%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    z-index: 100;
+}
+
+.icon{
+    color:white;
+    text-decoration: none;
+    padding: .7rem;
+    display:flex;
+    transition: all .5s;
+}
+
+.icon-facebook2{
+    background-color: blue;
+    border-radius:   0 1rem 0 0 ;
+}
+
+.icon-twitter{
+    background-color: rgb(45, 93, 250);
+}
+
+.icon-instagram{
+    background-color: rgb(243, 45, 250);
+    border-radius:  0 0 1rem 0 ;
+}
+
+.icon:hover {
+    padding-left: 3rem;
+    border-radius: 0 1rem 1rem 0;
+    box-shadow:  0 0 .5rem rgba(0 0 0.42%)
+
+}
