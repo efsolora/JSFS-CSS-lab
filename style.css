@@ -130,3 +130,9 @@ div#left h1{
     background-color: #3F60A5;
     border-radius: 0 0 0 0;
 }
+.icon:hover {
+    padding-left: 3rem;
+    border-radius: 0 1rem 1rem 0;
+    box-shadow:  0 0 .5rem rgba(0 0 0.42%)
+
+}
