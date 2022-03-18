@@ -1,4 +1,3 @@
-
 #left div  span{
     color: brown;
     text-align: center;
@@ -85,7 +84,6 @@ div#left div:first-child{
 div#left h1{
     
 }
-
 .caballero{
    
     font-family:  'Lora', serif;
@@ -103,4 +101,32 @@ div#left h1{
 .tamaño{
     width: 340px;
     
+}
+.socialbar{
+    position: fixed;
+    left: 0;
+    top: 35%;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    z-index: 100;
+}
+.icon{
+    color:white;
+    text-align: none;
+    padding: 7rem;
+    display: flex;
+    transition: all .5s;
+}
+.icon-facebook2{
+    background-color: #2E406E;
+    border-radius: 0 0 0 0;
+}
+.icon-twitter{
+    background: #339DC5;
+}
+.icon-instagram{
+    background-color: #3F60A5;
+    border-radius: 0 0 0 0;
 }
