@@ -1,18 +1,106 @@
+
+#left div  span{
+    color: brown;
+    text-align: center;
+    display: block;
+}
+main{
+    width: 1200px;
+}
+
+*{margin: 0;
+  padding: 0;}
+
 .colores{
    /* width: 600px;
     height: 600px;*/
-    background-image: linear-gradient(to top, #1d1b24,   #c6c8cd   );
+    background-image: linear-gradient(to top,   #3f556c , #ffbf9f,  #f8f8f9 ,#c7d0e0  );
 }
 .medidas{
-    width: 350px;
-    height: 500px;
+    width: 400px;
+    height: 400px;
   
 }
-#right{
-    width: 350px;
-}
+
 .division{
     height: 10px;
     width: 350;
     background-color: #1d1b24;
+}
+
+
+.color-blanco{
+    color: white;
+}
+.nombre{
+    font-style: italic;
+    font-family: 'Alex Brush', cursive;
+    font-size: 4.5rem;
+    position: absolute;
+    bottom: 30px;
+    color: aliceblue;
+    left: 16px;
+    text-shadow: 4px 5px 10px  black ;
+
+ }
+.foto{
+   
+  
+    position: relative;
+    
+}
+#left{
+    width: 400px;
+    height: 1800px;
+}
+
+
+
+div#left h2{
+    padding-left: 10px
+    ;
+    color: #151c25;
+    font-size: xx-large;
+    font-family:  'Lora', serif;
+}
+div#left p, ul{
+    list-style:none;
+    padding: 5px;
+   margin-left: 25px;
+    font-size:larger;
+    color: #22313f ;
+    font-family: 'Istok Web', sans-serif;
+    font-weight: bold;
+}
+div#left p{
+    text-align: justify;
+    }
+
+    
+
+div#left div:first-child{
+    position: relative;
+
+}
+div#left h1{
+    
+}
+
+.caballero{
+   
+    font-family:  'Lora', serif;
+    font-size:  x-large;
+    text-align: center;
+}
+
+ 
+ .parrafo{
+     width: 340px;
+     font-family: 'Istok Web', sans-serif;
+     color: #22313f;
+     font-weight: bold;
+ }
+.tamaño{
+    width: 340px;
+    
 }
