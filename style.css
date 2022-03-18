@@ -5,6 +5,8 @@
     display: block;
 }
 main{
+    display: flex;
+    justify-content: center;
     width: 1200px;
 }
 
@@ -51,7 +53,8 @@ main{
 }
 #left{
     width: 400px;
-    height: 1800px;
+  /*  height: 1800px;*/
+  padding-bottom: 20px;
 }
 
 
@@ -103,4 +106,7 @@ div#left h1{
 .tamaño{
     width: 340px;
     
+}
+#right{
+    background-color: aliceblue;
 }
