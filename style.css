@@ -1,8 +1,8 @@
-.caballero{
-    color:#ff796d ;
- }
-main.div.h1{
+
+#left div  span{
     color: brown;
+    text-align: center;
+    display: block;
 }
 main{
     width: 1200px;
@@ -14,7 +14,7 @@ main{
 .colores{
    /* width: 600px;
     height: 600px;*/
-    background-image: linear-gradient(to top,  #33576f, #ffbf9f,  #f8f8f9 ,#c7d0e0  );
+    background-image: linear-gradient(to top,   #3f556c , #ffbf9f,  #f8f8f9 ,#c7d0e0  );
 }
 .medidas{
     width: 400px;
@@ -35,10 +35,12 @@ main{
 .nombre{
     font-style: italic;
     font-family: 'Alex Brush', cursive;
-    font-size: 3rem;
+    font-size: 4.5rem;
     position: absolute;
-    top: 60px;
+    bottom: 30px;
     color: aliceblue;
+    left: 16px;
+    text-shadow: 4px 5px 10px  black ;
 
  }
 .foto{
@@ -85,7 +87,7 @@ div#left h1{
 }
 
 .caballero{
-    color:#ff796d ;
+   
     font-family:  'Lora', serif;
     font-size:  x-large;
     text-align: center;
