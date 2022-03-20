@@ -4,6 +4,8 @@
     display: block;
 }
 main{
+    display: flex;
+    justify-content: center;
     width: 1200px;
 }
 
@@ -50,7 +52,8 @@ main{
 }
 #left{
     width: 400px;
-    height: 1800px;
+  /*  height: 1800px;*/
+  padding-bottom: 20px;
 }
 
 
@@ -102,6 +105,7 @@ div#left h1{
     width: 340px;
     
 }
+<<<<<<< HEAD
 .socialbar{
     position: fixed;
     left: 0;
@@ -136,3 +140,8 @@ div#left h1{
     box-shadow:  0 0 .5rem rgba(0 0 0.42%)
 
 }
+=======
+#right{
+    background-color: aliceblue;
+}
+>>>>>>> 012ece525519946738200092828d47e99e4f434a
