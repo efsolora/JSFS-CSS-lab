@@ -95,7 +95,7 @@ div#left h1{
 }
 
  
- .parrafo{
+.parrafo{
      width: 340px;
      font-family: 'Istok Web', sans-serif;
      color: #22313f;
@@ -105,11 +105,13 @@ div#left h1{
     width: 340px;
     
 }
-<<<<<<< HEAD
+#right{
+    background-color: aliceblue;
+}
 .socialbar{
     position: fixed;
-    left: 0;
-    top: 35%;
+    right: 0;
+    top: 10%;
     font-size: 1.5rem;
     display: flex;
     flex-direction: column;
@@ -119,29 +121,24 @@ div#left h1{
 .icon{
     color:white;
     text-align: none;
-    padding: 7rem;
+    padding: 20px;
     display: flex;
     transition: all .5s;
 }
 .icon-facebook2{
     background-color: #2E406E;
-    border-radius: 0 0 0 0;
+    border-radius: 1rem 0 0 0;
 }
 .icon-twitter{
     background: #339DC5;
 }
 .icon-instagram{
-    background-color: #3F60A5;
-    border-radius: 0 0 0 0;
+    background-color: #a53f9c;
+    border-radius: 0 0 0 1rem;
 }
-.icon:hover {
-    padding-left: 3rem;
-    border-radius: 0 1rem 1rem 0;
+.icon:hover{
+    padding-right: 3rem;
+    border-radius: 1rem 0 0 1rem;
     box-shadow:  0 0 .5rem rgba(0 0 0.42%)
 
 }
-=======
-#right{
-    background-color: aliceblue;
-}
->>>>>>> 012ece525519946738200092828d47e99e4f434a
